@@ -88,4 +88,5 @@ add new parameter Resize_Width and Resize_Height in config.ini to set resize siz
 update.2022/05/17:
 fix the crop func. bug.
 add V4L2 support to RAW14, via "pixelFormat.h", and kernel modify.
-Updata the config.ini, now you only need to set IMAGE_WIDTH and IMAGE_HEIGHT. If sensor not align to VI 64 bytes, it will auto calculate the parameter setting value.
+add new V4L2 API to set preferred-stride for situations where the sensor cannot align to VI 64 bytes. It will be calculated by the program, no manual setting is required
+Update the config.ini, now you only need to set IMAGE_WIDTH and IMAGE_HEIGHT. If sensor not align to VI 64 bytes, it will auto calculate the parameter setting value.
