@@ -1,0 +1,24 @@
+sudo cp ./videodev2.h ../usr/src/kernel/kernel-4.9/include/uapi/linux/videodev2.h
+sudo cp ./v4l2-ioctl.c  ../usr/src/kernel/kernel-4.9/drivers/media/v4l2-core/v4l2-ioctl.c 
+sudo cp ./pixfmt-rgb.rst ../usr/src/kernel/kernel-4.9/Documentation/media/uapi/v4l/pixfmt-rgb.rst
+sudo cp ./pixfmt-srggb14.rst ../usr/src/kernel/kernel-4.9/Documentation/media/uapi/v4l/pixfmt-srggb14.rst
+sudo cp ./camera_common.c ../usr/src/kernel/nvidia/drivers/media/platform/tegra/camera/camera_common.c
+sudo cp ./sensor_common.c ../usr/src/kernel/nvidia/drivers/media/platform/tegra/camera/sensor_common.c
+sudo cp ./vi5_formats.h ../usr/src/kernel/nvidia/drivers/media/platform/tegra/camera/vi/vi5_formats.h
+
+
+
+
+sudo cp ./videodev2.h ../usr/src/kernel/kernel-4.9/include/uapi/linux/videodev2.h
+sudo cp ./v4l2-ioctl.c  ../usr/src/kernel/kernel-4.9/drivers/media/v4l2-core/v4l2-ioctl.c 
+sudo cp ./pixfmt-rgb.rst ../usr/src/kernel/kernel-4.9/Documentation/media/uapi/v4l/pixfmt-rgb.rst
+sudo rm ../usr/src/kernel/kernel-4.9/Documentation/media/uapi/v4l/pixfmt-srggb14.rst
+sudo cp ./camera_common.c ../usr/src/kernel/nvidia/drivers/media/platform/tegra/camera/camera_common.c
+sudo cp ./sensor_common.c ../usr/src/kernel/nvidia/drivers/media/platform/tegra/camera/sensor_common.c
+sudo cp ./vi5_formats.h ../usr/src/kernel/nvidia/drivers/media/platform/tegra/camera/vi/vi5_formats.h
+
+
+
+sudo cp ./v4l2-mediabus.h ../usr/src/kernel/kernel-4.9/include/uapi/linux/v4l2-mediabus.h
+
+
