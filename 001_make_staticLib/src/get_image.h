@@ -69,7 +69,8 @@ extern "C"
 
     /* reset stream and format to clear buf */
     int change_raw_fmt(int pixel_bit, int *cam_fd);
-
+    
+    /*debug usage*/
     void init_log();
     void write_log(char *log_msg);
 
