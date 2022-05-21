@@ -52,7 +52,7 @@ extern "C"
     int cam_init(int IMAGE_WIDTH, int IMAGE_HEIGHT);
 
     /* Convert Data Byte Order */
-    void cvt_ByteOrder(uint8_t *new_file, uint8_t *raw_file, int raw_buffer_size, int pixel_bit);
+    //void cvt_ByteOrder(uint8_t *new_file, uint8_t *raw_file, int raw_buffer_size, int pixel_bit);
     //void cvt_ByteOrder_float(void *new_file, uint8_t *raw_file, int image_size);
 
     /* Return 0 for success, -1 for error */
