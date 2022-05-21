@@ -2,6 +2,7 @@
 #include "get_image.h"
 #include "tegra-v4l2-camera.h" //Add to support PREFERRED_STRIDE(ALIGNMENT)
 #include "pixelFormat.h" //Add to support raw14
+void cvt_ByteOrder(uint8_t *new_file, uint8_t *raw_file, int raw_buffer_size, int pixel_bit);
 
 typedef struct VideoBuffer
 {
